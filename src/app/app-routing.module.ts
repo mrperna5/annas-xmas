@@ -10,6 +10,8 @@ const routes: Routes = [
   { path: 'geheimnisse', component: SecretsComponent },
   { path: 'geheimeNachricht/:id', component: SecretMessageComponent },
 
+  { path: '**', component: WelcomeComponent }
+
 ];
 
 @NgModule({
