@@ -5,11 +5,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SecretsComponent } from './secrets/secrets.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { SecretMessageComponent } from './secret-message/secret-message.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SecretsComponent
+    SecretsComponent,
+    WelcomeComponent,
+    SecretMessageComponent,
   ],
   imports: [
     BrowserModule,
