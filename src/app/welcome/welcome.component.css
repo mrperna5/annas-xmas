@@ -1,67 +1,8 @@
-@font-face {
-    font-family: 'DINNextLTPro-Bold';
-    src: url('/assets/fonts/DINNextLTPro-Bold.otf');
-    src: local('DINNextLTPro-Bold'), url('/assets/fonts/DINNextLTPro-Bold.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'DINNextLTPro-Italic';
-    src: url('/assets/fonts/DINNextLTPro-Italic.otf');
-    src: local('DINNextLTPro-Italic'), url('/assets/fonts/DINNextLTPro-Italic.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'DINNextLTPro-Light';
-    src: url('/assets/fonts/DINNextLTPro-Light.otf');
-    src: local('DINNextLTPro-Light'), url('/assets/fonts/DINNextLTPro-Light.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'DINNextLTPro-LightCondensed';
-    src: url('/assets/fonts/DINNextLTPro-LightCondensed.otf');
-    src: local('DINNextLTPro-LightCondensed'), url('/assets/fonts/DINNextLTPro-LightCondensed.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'DINNextLTPro-LightItalic';
-    src: url('/assets/fonts/DINNextLTPro-LightItalic.otf');
-    src: local('DINNextLTPro-LightItalic'), url('/assets/fonts/DINNextLTPro-LightItalic.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'DINNextLTPro-Medium';
-    src: url('/assets/fonts/DINNextLTPro-Medium.otf');
-    src: local('DINNextLTPro-Medium'), url('/assets/fonts/DINNextLTPro-Medium.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'DINNextLTPro-Regular';
-    src: url('/assets/fonts/DINNextLTPro-Regular.otf');
-    src: local('DINNextLTPro-Regular'), url('/assets/fonts/DINNextLTPro-Regular.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'Arvo-Bold';
-    src: url('/assets/fonts/Arvo-Bold.ttf');
-    src: local('Arvo-Bold'), url('/assets/fonts/Arvo-Bold.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Arvo-BoldItalic';
-    src: url('/assets/fonts/Arvo-BoldItalic.ttf');
-    src: local('Arvo-BoldItalic'), url('/assets/fonts/Arvo-BoldItalic.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Arvo-Italic';
-    src: url('/assets/fonts/Arvo-Italic.ttf');
-    src: local('Arvo-Italic'), url('/assets/fonts/Arvo-Italic.ttf') format('truetype');
-}
 
 body {
     width: 100%;
     float: left;
-    font-family: DINNextLTPro-Light;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -162,17 +103,18 @@ h6 {
 }
 
 p a {
-    font-family: 'Arvo-Italic', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     color: #f36f21;
     font-style: normal;
 }
 
 p button {
-    font-family: 'Arvo-Italic', serif;
+    font-family: 'Roboto';    
+    font-weight: 900;
     font-size: 1rem;
     color: #000;
-    font-style: normal;
+    font-style: italic;
     background-color: #f36f21;;
     padding: 15px 32px;
 }
@@ -183,7 +125,7 @@ a:hover {
 }
 
 .ptextelement p a {
-    font-family: 'Arvo-Italic', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     color: #f36f21;
     font-style: normal;
@@ -216,7 +158,7 @@ a:hover {
 
 .ptextelement ul li a {
     color: #f36f21;
-    font-family: 'Arvo-Italic', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     line-height: 1rem;
     padding-bottom: 2px;
@@ -260,7 +202,7 @@ a:hover {
     font-size: 1rem;
     color: #f36f21;
     font-style: normal;
-    font-family: 'Arvo-Italic', serif;
+    font-family: 'Roboto', sans-serif;
     padding-bottom: 3px;
     text-decoration: none;
     position: relative;
@@ -284,7 +226,7 @@ a:hover {
 
 .link a {
     color: #000;
-    font-family: 'Arvo-Italic', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
     line-height: 1.3rem;
     padding-bottom: 2px;
@@ -312,7 +254,7 @@ a:hover {
     font-size: 1rem;
     color: #f36f21;
     font-style: normal;
-    font-family: 'Arvo-Italic', serif;
+    font-family: 'Roboto', sans-serif;
     padding-bottom: 2px;
     text-decoration: none;
     position: relative;
@@ -375,7 +317,7 @@ a:hover {
     font-size: 1rem;
     color: #f36f21;
     font-style: normal;
-    font-family: 'Arvo-Italic', serif;
+    font-family: 'Roboto', sans-serif;
     padding-bottom: 3px;
     text-decoration: none;
     position: relative;
@@ -401,7 +343,7 @@ a:hover {
     font-size: 1rem;
     color: #f36f21;
     font-style: normal;
-    font-family: 'Arvo-Italic', serif;
+    font-family: 'Roboto', sans-serif;
     padding-bottom: 3px;
     text-decoration: none;
     position: relative;
@@ -811,13 +753,13 @@ a:hover {
     }
 
     .textcursiveemotion {
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 1.2rem;
         line-height: normal;
     }
 
     .col-md-4.paddingelement.parallax-image.contenttext h3 {
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 1.2rem;
         line-height: normal;
         margin-bottom: 0;
@@ -883,7 +825,7 @@ a:hover {
     }
 
     #cookieChoiceInfo a {
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 1rem;
         width: 80%;
         float: left;
@@ -1769,7 +1711,7 @@ a:hover {
         border-bottom: 0;
         padding: 8px 0;
         background-color: #83bb26;
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         margin-top: 40px;
         margin-right: 3%;
         margin-left: 3%;
@@ -2008,7 +1950,7 @@ a:hover {
     }
 
     .infoiconfeuer span {
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 1rem;
         color: #f36f21;
         font-style: normal;
@@ -2141,7 +2083,7 @@ a:hover {
     }
 
     .infoiconplanauskunft span {
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 1rem;
         color: #f36f21;
         font-style: normal;
@@ -2326,11 +2268,11 @@ a:hover {
         background: rgb(255, 239, 42);
         color: #000;
         font-size: 1rem;
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
     }
 
     .textzitat {
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         margin-top: 25px;
         margin-bottom: 25px;
         line-height: 20px;
@@ -2342,7 +2284,7 @@ a:hover {
 
     .subheadlinegray {
         color: #666;
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         margin-bottom: 30px;
         font-size: 1rem;
         line-height: 1.2rem;
@@ -2350,7 +2292,7 @@ a:hover {
 
     .bghalfelement p strong {
         color: #666;
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         margin-bottom: 30px;
         font-size: 1rem;
         float: left;
@@ -2435,7 +2377,7 @@ a:hover {
 
     .noteheadline {
         color: #f36f21;
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         margin-bottom: 0;
         font-size: 13px;
         width: 100%;
@@ -2454,7 +2396,7 @@ a:hover {
     .notetext {
         width: 100%;
         float: left;
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         padding-left: 30px;
         padding-right: 30px;
         line-height: 18px;
@@ -2665,7 +2607,7 @@ a:hover {
     }
 
     .card-body a {
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 1rem;
         color: #f36f21;
         font-style: normal;
@@ -2944,7 +2886,7 @@ a:hover {
     .resultwhitebox .linkaccordion .col-md-3 a {
         padding: 8px 12px;
         background-color: #83bb26;
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         color: #000;
         margin-top: 10px;
         float: left;
@@ -3036,7 +2978,7 @@ a:hover {
     }
 
     .icondownload p em {
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 1rem;
         color: #f36f21;
         font-style: normal;
@@ -3130,7 +3072,7 @@ a:hover {
         float: left;
         width: 100%;
         color: #666;
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         margin-bottom: 10px;
         font-size: 1rem;
         font-weight: normal;
@@ -3397,7 +3339,7 @@ a:hover {
         border-radius: 0;
         background: transparent;
         border: 0;
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         text-transform: uppercase;
         color: #000;
         height: 65px;
@@ -3804,7 +3746,7 @@ a:hover {
     }
 
     .persontext .textcursive p {
-        font-family: 'DINNextLTPro-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 1.1rem;
         line-height: 1.3rem;
     }
@@ -3937,7 +3879,7 @@ a:hover {
         font-size: 1rem;
         color: #f36f21;
         font-style: normal;
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         padding-bottom: 2px;
         text-decoration: none;
         position: relative;
@@ -3946,7 +3888,7 @@ a:hover {
 
     .footer .news-list-date {
         color: #666;
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         margin-bottom: 30px;
         font-size: 1rem;
         line-height: 1rem;
@@ -3974,7 +3916,7 @@ a:hover {
         font-size: 1rem;
         color: #f36f21;
         font-style: normal;
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         background: #fff;
         padding: 5px 10px;
         text-align: center;
@@ -3984,7 +3926,7 @@ a:hover {
         font-size: 1rem;
         color: #fff;
         font-style: normal;
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         background: #f36f21;
         padding: 5px 10px;
         text-align: center;
@@ -4109,7 +4051,7 @@ a:hover {
         width: 100%;
         float: left;
         color: #666;
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         margin-bottom: 2rem;
         font-size: 1.35rem;
         line-height: 1.75rem;
@@ -4200,7 +4142,7 @@ a:hover {
         width: 100%;
         float: left;
         color: #666;
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         margin-bottom: 1rem;
         font-size: 1.35rem;
         line-height: 1.75rem;
@@ -4232,7 +4174,7 @@ a:hover {
 
     .textcursiveemotiongrau {
         color: #666;
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         margin-bottom: 1rem;
         font-size: 1.35rem;
         line-height: 1.75rem;
@@ -4240,7 +4182,7 @@ a:hover {
 
     .col-md-4.paddingelement.parallax-image.contenttext h3 {
         color: #666;
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         margin-bottom: 1rem;
         font-size: 1.35rem;
         line-height: 1.75rem !important;
@@ -4350,7 +4292,7 @@ a:hover {
 
 @media screen and (min-width: 370px) {
     .infoiconfeuer span {
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 1rem;
         color: #f36f21;
         font-style: normal;
@@ -4474,7 +4416,7 @@ a:hover {
     }
 
     .infoiconplanauskunft span {
-        font-family: 'Arvo-Italic', serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 1rem;
         color: #f36f21;
         font-style: normal;
