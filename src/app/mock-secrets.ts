@@ -1,7 +1,7 @@
 import { Secret } from './secret'
 
 export const SECRETS: Secret[] = [
-    { id: 1, password: 'a123', inputPass: '', message: 'Secret Message one' },
+    { id: 1, password: 'a123', inputPass: '', message: 'Secret Message one Secret Message oneSecret Message oneSecret Message oneSecret Message oneSecret Message oneSecret Message oneSecret Message oneSecret Message oneSecret Message oneSecret Message oneSecret Message oneSecret Message oneSecret Message one' },
     { id: 2, password: 'b123', inputPass: '', message: 'Secret Message two' },
     { id: 3, password: 'c123', inputPass: '', message: 'Secret Message three' },
     { id: 4, password: 'd123', inputPass: '', message: 'Secret Message four' },
