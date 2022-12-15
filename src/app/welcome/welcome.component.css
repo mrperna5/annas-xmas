@@ -1,3 +1,62 @@
+@font-face {
+    font-family: 'DINNextLTPro-Bold';
+    src: url('/DINNextLTPro-Bold.otf');
+    src: local('DINNextLTPro-Bold'), url('/DINNextLTPro-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DINNextLTPro-Italic';
+    src: url('/DINNextLTPro-Italic.otf');
+    src: local('DINNextLTPro-Italic'), url('/DINNextLTPro-Italic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DINNextLTPro-Light';
+    src: url('/DINNextLTPro-Light.otf');
+    src: local('DINNextLTPro-Light'), url('/DINNextLTPro-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DINNextLTPro-LightCondensed';
+    src: url('/DINNextLTPro-LightCondensed.otf');
+    src: local('DINNextLTPro-LightCondensed'), url('/DINNextLTPro-LightCondensed.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DINNextLTPro-LightItalic';
+    src: url('/DINNextLTPro-LightItalic.otf');
+    src: local('DINNextLTPro-LightItalic'), url('/DINNextLTPro-LightItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DINNextLTPro-Medium';
+    src: url('/DINNextLTPro-Medium.otf');
+    src: local('DINNextLTPro-Medium'), url('/DINNextLTPro-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DINNextLTPro-Regular';
+    src: url('/DINNextLTPro-Regular.otf');
+    src: local('DINNextLTPro-Regular'), url('/DINNextLTPro-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Arvo-Bold';
+    src: url('/Arvo-Bold.ttf');
+    src: local('Arvo-Bold'), url('/Arvo-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Arvo-BoldItalic';
+    src: url('/Arvo-BoldItalic.ttf');
+    src: local('Arvo-BoldItalic'), url('/Arvo-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Arvo-Italic';
+    src: url('/Arvo-Italic.ttf');
+    src: local('Arvo-Italic'), url('/Arvo-Italic.ttf') format('truetype');
+}
 
 body {
     width: 100%;
