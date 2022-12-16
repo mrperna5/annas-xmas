@@ -14,7 +14,9 @@ export class SecretsComponent implements OnInit {
 
   secrets = SECRETS;
 
-  errorMessage = 'Secret is not correct'
+  
+  warningMessage = 'Code ist falsch'
+  lossMessage = 'out of attempts! you lose!'
 
 
   constructor(
@@ -25,11 +27,17 @@ export class SecretsComponent implements OnInit {
   }
 
   getSecert(secret: Secret,inputPass: string) {
+    console.log("clicked")
     if (inputPass == secret.password) {
       this.router.navigate(['geheimeNachricht', secret.id])
-      secret.validPassword = true;
-    } else {
-      secret.validPassword = false;
+      secret.validPassword = true
+      secret.passwordCounter = 0
+    } else {      
+      secret.validPassword = false
+      secret.passwordCounter++
+    }
+
+    if (secret.passwordCounter >= 3) {
     }
   }
 

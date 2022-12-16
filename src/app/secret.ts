@@ -4,4 +4,5 @@ export interface Secret {
     inputPass: string;
     message: string;
     validPassword?: boolean;
+    passwordCounter: number;
 }
