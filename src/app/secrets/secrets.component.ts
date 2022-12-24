@@ -28,6 +28,7 @@ export class SecretsComponent implements OnInit {
 
   getSecert(secret: Secret,inputPass: string) {
     // console.log("clicked")
+    inputPass = inputPass.toUpperCase()
     if (inputPass == secret.password) {
       this.router.navigate(['geheimeNachricht', secret.id])
       secret.validPassword = true
