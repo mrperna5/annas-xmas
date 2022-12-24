@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Location } from '@angular/common';
 
 import { Secret } from '../secret'
 import { SECRETS } from '../mock-secrets'
@@ -21,6 +22,7 @@ export class SecretsComponent implements OnInit {
 
   constructor(
     private router: Router,
+    private location: Location,
   ) { }
 
   ngOnInit(): void {
@@ -40,9 +42,7 @@ export class SecretsComponent implements OnInit {
 
     if (secret.passwordCounter >= 3) {
     }
-  }
-
-  
+  }  
 
   // getSecert1() {
   //   if (this.secretPassword1 === "a123") {
@@ -52,5 +52,10 @@ export class SecretsComponent implements OnInit {
   //     this.invalidPassword1Msg = true
   //   }
   // }
+
+  goBack(): void {
+    this.location.back();
+  }
+
 
 }

@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { SecretsComponent } from './secrets/secrets.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { SecretMessageComponent } from './secret-message/secret-message.component';
+import { BestandteileComponent } from './bestandteile/bestandteile.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { SecretMessageComponent } from './secret-message/secret-message.componen
     SecretsComponent,
     WelcomeComponent,
     SecretMessageComponent,
+    BestandteileComponent,
   ],
   imports: [
     BrowserModule,

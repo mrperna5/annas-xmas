@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { BestandteileComponent } from './bestandteile/bestandteile.component';
 import { SecretMessageComponent } from './secret-message/secret-message.component';
 import { SecretsComponent } from './secrets/secrets.component';
 import { WelcomeComponent } from './welcome/welcome.component';
@@ -8,6 +9,7 @@ const routes: Routes = [
   { path: '',  redirectTo: '/willkommen', pathMatch: 'full' },
   { path: 'willkommen', component: WelcomeComponent },
   { path: 'geheimnisse', component: SecretsComponent },
+  { path: 'bestandteile', component: BestandteileComponent},
   { path: 'geheimeNachricht/:id', component: SecretMessageComponent },
 
   { path: '**', component: WelcomeComponent }
