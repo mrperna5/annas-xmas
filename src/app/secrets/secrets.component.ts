@@ -16,7 +16,7 @@ export class SecretsComponent implements OnInit {
 
   
   warningMessage = 'Code ist falsch'
-  lossMessage = 'out of attempts! you lose!'
+  lossMessage = 'keine weiteren Versuche mehr!'
 
 
   constructor(
